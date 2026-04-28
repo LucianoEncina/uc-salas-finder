@@ -1,0 +1,219 @@
+{
+  "campus": "San Joaquín",
+  "universidad": "Pontificia Universidad Católica de Chile",
+  "coordenadas_campus": {
+    "lat": -33.4983,
+    "lng": -70.6146,
+    "direccion": "Av. Vicuña Mackenna 4860, Macul, Santiago"
+  },
+  "entradas_principales": [
+    {
+      "id": "entrada_principal",
+      "nombre": "Entrada Principal (Vicuña Mackenna)",
+      "lat": -33.4978,
+      "lng": -70.6153
+    },
+    {
+      "id": "entrada_sur",
+      "nombre": "Entrada Sur (Walker Martínez)",
+      "lat": -33.5010,
+      "lng": -70.6140
+    }
+  ],
+  "edificios": {
+    "AUD": {
+      "nombre": "Edificio Auditorios",
+      "abreviacion": "AUD",
+      "lat": -33.4981,
+      "lng": -70.6148,
+      "descripcion_ubicacion": "Frente a la entrada principal, primer edificio a la derecha"
+    },
+    "ING": {
+      "nombre": "Edificio Ingeniería",
+      "abreviacion": "ING",
+      "lat": -33.4985,
+      "lng": -70.6142,
+      "descripcion_ubicacion": "Al centro del campus, detrás del edificio de auditorios"
+    },
+    "CIE": {
+      "nombre": "Edificio Ciencias",
+      "abreviacion": "CIE",
+      "lat": -33.4990,
+      "lng": -70.6135,
+      "descripcion_ubicacion": "Al oriente del campus, junto al edificio de laboratorios"
+    },
+    "LAB": {
+      "nombre": "Edificio de Laboratorios",
+      "abreviacion": "LAB",
+      "lat": -33.4988,
+      "lng": -70.6130,
+      "descripcion_ubicacion": "Al fondo del campus lado oriente"
+    },
+    "MIDE": {
+      "nombre": "Edificio Mide",
+      "abreviacion": "MIDE",
+      "lat": -33.4975,
+      "lng": -70.6158,
+      "descripcion_ubicacion": "Junto a la entrada principal, lado izquierdo al ingresar"
+    },
+    "BC": {
+      "nombre": "Biblioteca Central San Joaquín",
+      "abreviacion": "BC",
+      "lat": -33.4993,
+      "lng": -70.6150,
+      "descripcion_ubicacion": "Al centro-sur del campus, edificio con fachada de vidrio"
+    }
+  },
+  "salas": [
+    {
+      "id": "AUD101",
+      "codigo": "AUD 101",
+      "nombre": "Auditorio 1",
+      "edificio": "AUD",
+      "piso": 1,
+      "capacidad": 200,
+      "tipo": "auditorio",
+      "lat": -33.4981,
+      "lng": -70.6148,
+      "foto_url": null,
+      "como_llegar": "Entra por la puerta principal de Vicuña Mackenna, camina 50m recto. El Edificio Auditorios es el primero a tu derecha. El Auditorio 1 está en planta baja, puerta principal del edificio.",
+      "referencias": ["Frente a la pileta central", "Al lado de la cafetería principal"],
+      "tags": ["auditorio", "charlas", "eventos", "conferencias"]
+    },
+    {
+      "id": "AUD102",
+      "codigo": "AUD 102",
+      "nombre": "Auditorio 2",
+      "edificio": "AUD",
+      "piso": 1,
+      "capacidad": 150,
+      "tipo": "auditorio",
+      "lat": -33.4981,
+      "lng": -70.6148,
+      "foto_url": null,
+      "como_llegar": "Mismo edificio que el Auditorio 1. Entra al edificio y al final del pasillo central está el Auditorio 2.",
+      "referencias": ["Al fondo del pasillo del Edificio Auditorios"],
+      "tags": ["auditorio", "charlas", "eventos"]
+    },
+    {
+      "id": "ING201",
+      "codigo": "ING 201",
+      "nombre": "Sala 201",
+      "edificio": "ING",
+      "piso": 2,
+      "capacidad": 40,
+      "tipo": "sala_clases",
+      "lat": -33.4985,
+      "lng": -70.6142,
+      "foto_url": null,
+      "como_llegar": "Desde la entrada principal, sigue el camino central hasta el Edificio Ingeniería (letrero grande 'ING'). Sube al 2° piso por las escaleras o ascensor. La sala 201 es la primera a la izquierda.",
+      "referencias": ["Frente al baño del 2° piso", "Edificio Ingeniería, ala norte"],
+      "tags": ["sala", "clases", "ingeniería"]
+    },
+    {
+      "id": "ING202",
+      "codigo": "ING 202",
+      "nombre": "Sala 202",
+      "edificio": "ING",
+      "piso": 2,
+      "capacidad": 40,
+      "tipo": "sala_clases",
+      "lat": -33.4985,
+      "lng": -70.6142,
+      "foto_url": null,
+      "como_llegar": "Edificio Ingeniería, 2° piso. Sala 202 está al lado de la sala 201, continuando por el pasillo hacia el sur.",
+      "referencias": ["Pasillo 2° piso Edificio Ingeniería", "Al lado de sala 201"],
+      "tags": ["sala", "clases", "ingeniería"]
+    },
+    {
+      "id": "ING301",
+      "codigo": "ING 301",
+      "nombre": "Sala 301",
+      "edificio": "ING",
+      "piso": 3,
+      "capacidad": 35,
+      "tipo": "sala_clases",
+      "lat": -33.4985,
+      "lng": -70.6142,
+      "foto_url": null,
+      "como_llegar": "Edificio Ingeniería, sube al 3° piso. La sala 301 está al salir del ascensor a la derecha, o al subir las escaleras sigue derecho por el pasillo.",
+      "referencias": ["3° piso Edificio Ingeniería", "Frente a la sala de profesores"],
+      "tags": ["sala", "clases", "ingeniería"]
+    },
+    {
+      "id": "LAB_COMP1",
+      "codigo": "LAB-COMP-1",
+      "nombre": "Laboratorio de Computación 1",
+      "edificio": "LAB",
+      "piso": 1,
+      "capacidad": 30,
+      "tipo": "laboratorio",
+      "lat": -33.4988,
+      "lng": -70.6130,
+      "foto_url": null,
+      "como_llegar": "Dirígete al Edificio de Laboratorios al oriente del campus (sigue la calle interna hacia el fondo). En planta baja, el Lab. de Computación 1 está a la entrada del edificio, lado derecho.",
+      "referencias": ["Planta baja Edificio Laboratorios", "Cerca del estacionamiento oriente"],
+      "tags": ["laboratorio", "computación", "PCs", "informática"]
+    },
+    {
+      "id": "LAB_COMP2",
+      "codigo": "LAB-COMP-2",
+      "nombre": "Laboratorio de Computación 2",
+      "edificio": "LAB",
+      "piso": 1,
+      "capacidad": 30,
+      "tipo": "laboratorio",
+      "lat": -33.4988,
+      "lng": -70.6130,
+      "foto_url": null,
+      "como_llegar": "Edificio Laboratorios, planta baja. El Lab. de Computación 2 está al fondo del pasillo central, a la izquierda.",
+      "referencias": ["Al fondo del pasillo, Edificio Laboratorios"],
+      "tags": ["laboratorio", "computación", "PCs", "informática"]
+    },
+    {
+      "id": "CIE101",
+      "codigo": "CIE 101",
+      "nombre": "Sala 101 Ciencias",
+      "edificio": "CIE",
+      "piso": 1,
+      "capacidad": 50,
+      "tipo": "sala_clases",
+      "lat": -33.4990,
+      "lng": -70.6135,
+      "foto_url": null,
+      "como_llegar": "Ve al Edificio Ciencias, ubicado al oriente del campus junto al edificio de laboratorios. En planta baja, sala 101 está a la derecha al entrar.",
+      "referencias": ["Planta baja Edificio Ciencias", "Al lado del Edificio Laboratorios"],
+      "tags": ["sala", "clases", "ciencias", "física", "química"]
+    },
+    {
+      "id": "BC_SALA1",
+      "codigo": "BC-S1",
+      "nombre": "Sala de Estudio 1 — Biblioteca",
+      "edificio": "BC",
+      "piso": 2,
+      "capacidad": 20,
+      "tipo": "sala_estudio",
+      "lat": -33.4993,
+      "lng": -70.6150,
+      "foto_url": null,
+      "como_llegar": "Entra a la Biblioteca Central San Joaquín (edificio con fachada de vidrio al sur del campus). Sube al 2° piso. Las salas de estudio están a la izquierda.",
+      "referencias": ["2° piso Biblioteca Central", "Fachada de vidrio al sur del campus"],
+      "tags": ["biblioteca", "estudio", "sala grupal", "silencio"]
+    },
+    {
+      "id": "MIDE_A",
+      "codigo": "MIDE-A",
+      "nombre": "Sala A — Edificio Mide",
+      "edificio": "MIDE",
+      "piso": 1,
+      "capacidad": 60,
+      "tipo": "sala_clases",
+      "lat": -33.4975,
+      "lng": -70.6158,
+      "foto_url": null,
+      "como_llegar": "Al entrar al campus por la entrada principal de Vicuña Mackenna, el Edificio Mide está inmediatamente a la izquierda. La Sala A está en planta baja al entrar al edificio.",
+      "referencias": ["Inmediatamente a la izquierda de la entrada principal", "Planta baja Edificio Mide"],
+      "tags": ["sala", "clases", "mide"]
+    }
+  ]
+}
