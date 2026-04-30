@@ -43,7 +43,11 @@ export async function consultarSala(historial) {
   if (!res.ok) throw new Error(`API error: ${res.status}`)
   const data = await res.json()
   const texto = data.content.filter(b => b.type === 'text').map(b => b.text).join('')
-  return JSON.parse(texto.replace(/```json|```/g, '').trim())
+  try {
+    return JSON.parse(texto.replace(/```json|```/g, '').trim())
+  } catch {
+    return { encontrado: false, sala_id: null, mensaje: texto, necesita_aclaracion: false, pregunta_aclaracion: null }
+  }
 }
 
 export function obtenerDatosSala(salaId) {
