@@ -31,7 +31,7 @@ ${salasTexto}`
 
 export async function consultarSala(historial) {
   // Llama al proxy seguro en vez de directo a Anthropic
-  const apiUrl = import.meta.env.VITE_API_URL || ''
+  const apiUrl = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '')
   const res = await fetch(`${apiUrl}/api/chat`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
